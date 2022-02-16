@@ -1,4 +1,3 @@
-alert("hello");
 var count = 1;
 function darkMode(){
     if(count%2 !== 0){
