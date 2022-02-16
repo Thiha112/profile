@@ -1,0 +1,534 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Concert+One&family=Josefin+Sans&family=Montserrat&family=Roboto+Mono:wght@600&family=Sacramento&family=Supermercado+One&family=Tangerine&display=swap');
+
+:root{
+    --primary_color:#E5FCFF;
+    --primary_font: 'Montserrat', sans-serif;
+}
+body{
+    scroll-behavior: smooth;
+    background-color: var(--primary_color);
+    font-family: var(--primary_font);
+}
+
+
+/*
+    font-family: 'Abel', sans-serif;
+
+    font-family: 'Concert One', cursive;
+
+    font-family: 'Josefin Sans', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Sacramento', cursive;
+
+    font-family: 'Tangerine', cursive;
+*/
+
+#navigation{
+    padding:2% 15%;
+}
+#darkmode-icon{
+    z-index: 999;
+    position:fixed;
+    right: 17%;
+    top:8%;
+    width:40px;
+}
+.logo{
+    width:68px;
+}
+.navi{
+    margin-left: auto;
+    margin-right:10%;
+}
+
+#Home{
+    padding: 5% 15%;
+    height: 540px;
+}
+
+.home-img{
+    margin-left: 85px;
+    width:80%;
+}
+
+.home-text{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.inner_shape{
+    margin-top:15px;
+    /* margin-right: 2px; */
+    margin-left: 15px;
+    width:15%;
+}
+
+.home-name{
+    font-family: 'Supermercado One', cursive;
+    color:#FF7F3F;
+    font-size: 5.5rem;
+}
+
+.btn{
+    width : 100px;
+}
+
+.btn:hover{
+    border-color: rgb(106, 158, 255);
+    background-color:rgb(106, 158, 255);
+}
+
+#features{
+    width:100vw;
+    padding:2% 15%;
+    background-color: white;
+}
+
+#features-icon{
+    font-size: 50px;
+    color: #FF3D64;
+}
+
+#features-icon:hover{
+    color:red;
+}
+.feature-box{
+    padding:2.5%;
+    text-align: center;
+}
+.feature-text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Concert One', cursive;
+    padding:5%;
+}
+.nav-tabs .nav-link{
+    color:violet;
+}
+
+#skills{
+    width:100vw;
+    background-color: #1A1A2E;
+    height:640px;
+}
+.nav.nav-tabs{
+    width:43.69%;
+    padding-top: 50px;
+    height:1%;
+    margin:auto;
+}
+
+.tab-pane{
+    padding:3% 15%;
+    color:white;
+}
+
+.nav-link.active{
+    background-color: red;
+}
+
+.nav-link{
+    color:white;
+}
+.first-tab{
+    border-radius: 1%;
+    background-color: #23233f;
+    height:360px;
+    border-color: #23233f;
+}
+
+.progress{
+    height:10px;
+}
+.progress-value{
+    color:black;
+}
+.item-name{
+    font-size: 13px;
+}
+.skill-items{
+    padding: 5% 3% 5% 3%;
+}
+
+.second-tab{
+    border-radius: 1%;
+    background-color: #23233f;
+    height:360px;
+    border-color: #23233f;
+}
+
+.container {
+    max-width: 960px;
+}
+#service-items{
+    padding:5% 15%;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.service-title{
+    padding:3% 15% 1%;
+    text-align: center;
+}
+.tservice-title{
+    margin-bottom: 3.2%;
+    font-family: 'Concert One', cursive;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+
+.slide{
+    padding: 3% 15%;
+}
+#courses{
+    width:100vw;
+    background-color: #DAF7E7;
+}
+.testimonial-img{
+    width:90%;
+    margin-left: 3%;
+}
+
+.course-btn{
+    margin-top: 7.7%;
+    width:35%;
+}
+#courses h5{
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    filter:invert(100%);
+}
+
+
+#articles{
+    padding:5% 15%;
+}
+
+.no-border {
+    border: 0;
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+.form-control {
+    border: 0;
+}
+
+
+#contact{
+    padding: 5% 10%;
+    width:100vw;
+    background-color: #FFFFFF;
+}
+.acc-icon{
+    margin:5% 0% 5% 9%;
+    text-align: center;
+    font-size: 25px;
+}
+
+#uppericon{
+    font-size: 40px;
+}
+
+.icontext{
+    margin-left: 7%;
+}
+.tableicon{
+    margin-top: 8%;
+    margin-left: 5%;
+}
+
+.iconpack{
+    margin-top: 5%;
+    margin-left: 7%;
+}
+
+.darkicon{
+    color:black;
+}
+
+.foottext{
+    padding:1% 0%;
+    margin:auto;
+    margin-top: 0.4%;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Concert One', cursive;
+}
+.chess{
+    width:7%;
+}
+
+.skill-itemss{
+    padding: 5% 3% 5% 3%;
+}
+
+.skill-itemsss{
+    padding: 5% 3% 5% 3%;
+}
+
+.article-title{
+    text-align: center;
+    margin-bottom: 3.2%;
+    font-family: 'Concert One', cursive;
+}
+
+
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:420px) {
+    #navigation{
+        padding: 5% 3% 5% 3%;
+    }
+    #darkmode-icon{
+        z-index: 999;
+        position:fixed;
+        right: 7%;
+        top:7%;
+        width:25px;
+    }
+    .navbar-brand{
+        margin-left: 8%;
+    }
+    .navbar-nav{
+        display: flex;
+        font-size: 12px;
+        list-style: none;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .nav-item{
+        margin-left: 10px;
+    }
+    .nav-link{
+        font-size: 9px;
+    }
+    .logo{
+        margin-left: 15%;
+        width:40px;
+    }
+    .inner_shape{
+        margin-top: 5px;
+        margin-left: 10px;
+        width:5px;
+    }
+    #Home{
+        padding: 5% 15%;
+        height: 230px;
+    }
+    
+    .home-img{
+        position:absolute;
+        top:27%;
+        right:5%;
+        width:32%;
+    }
+    
+    .home-text{
+        font-size: 10px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+    .home-name{
+        margin-bottom: 0%;
+        font-family: 'Supermercado One', cursive;
+        color:#FF7F3F;
+        font-size: 1.5rem;
+    }
+    .home-para{
+        position: absolute;
+        top: 35%;
+        font-size: 7px;
+        width:43%;
+    }
+    .home-para2{
+        position: absolute;
+        top: 41%;
+        font-size: 7px;
+        width:43%;
+    }
+    .home-btn{
+        position:absolute;
+        top:54%;
+        
+        width:70px;
+        height:12px;
+    }
+    .hireme{
+        font-size: 8px;
+        position: absolute;
+        bottom:10%;
+        left:30%;
+    }
+    #features-icon{
+        font-size: 30px;
+        color: #FF3D64;
+    }
+    .feature-text{
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Concert One', cursive;
+        padding:5%;
+    }
+    .feature-para{
+        font-size: 10px;
+    }
+    #skills{
+        width:100vw;
+        padding:2% 5%;
+    }
+    .tab-pane{
+        padding:2% 0%;
+    }
+    .nav-link{
+        font-size: 6px;
+    }
+    .nav-tabs{
+        width:400px;
+        padding-top: 50px;
+        margin:auto;
+    }
+    .item-name{
+        font-size: 8px;
+    }
+    .nav.nav-tabs{
+        width:98.9%;
+        padding-top: 50px;
+        height:1%;
+        text-align: center;
+    }
+    .progress{
+        height:6px;
+    }
+    .progress-bar{
+        height:6px;
+    }
+    .progress-value{
+        font-size:8px;
+    }
+    #skills{
+        width:100%100em;
+        height:630px;
+    }
+    .first-tab{
+        border-radius: 1%;
+        background-color: #23233f;
+        height:460px;
+        border-color: #23233f;
+    }
+    .second-tab{
+        border-radius: 1%;
+        background-color: #23233f;
+        height:470px;
+        border-color: #23233f;
+    }
+    .third-tab{
+        border-radius: 1%;
+        background-color: #23233f;
+        height:460px;
+        border-color: #23233f;
+    }
+    .tservice-title{
+        margin-top: 10px;
+        margin-bottom: 25px;
+        font-size: 15px;
+    }
+    .servicepara{
+        font-size: 10px;
+    }
+    .servicetitle{
+        font-size:15px;
+    }
+    .servicebtn{
+        font-size:10px;
+    }
+    .testtitle{
+        font-size: 12px;
+    }
+    .testpara{
+        font-size:10px;
+    }
+    .course-btn{
+        width:50%;
+        height:30px;
+        font-size:10px;
+    }
+    .testimonial-img{
+        margin-top: 3%;
+        margin-bottom: 8%;
+        width:90%;
+        height:70%;
+        border-radius: 10%;
+    }
+    .article-title{
+        font-size: 15px;
+    }
+    .articleh5{
+        font-size: 12px;
+    }
+    .card-title{
+        font-size: 13px;
+    }
+    .cardp{
+        font-size:10px;
+    }
+    .smallp{
+        font-size: 8px;
+    }
+    .name{
+        font-size: 12px;
+    }
+    .email{
+        font-size:12px;
+    }
+    .subject{
+        font-size:12px;
+    }
+    .textarea{
+        font-size:12px;
+    }
+    .submitbtn{
+        font-size:10px;
+        margin-bottom: 5%;
+    }
+    .contacttitle{
+        font-size:12px;
+    }
+    .contactpara{
+        font-size:10px;
+    }
+    #uppericon{
+        font-size: 2.2rem;
+    }
+    .iconpack{
+        margin-left:1%;
+    }
+    .foottext{
+        margin-top: 1%;
+        font-size:12px;
+    }
+}
+
+@media only screen and (min-width:400px) and (max-width:800px){
+    .nav.nav-tabs{
+        width:80.9%;
+        padding-top: 50px;
+        height:1%;
+        text-align: center;
+    }
+}
