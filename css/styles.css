@@ -9,8 +9,6 @@ body{
     background-color: var(--primary_color);
     font-family: var(--primary_font);
 }
-
-
 /*
     font-family: 'Abel', sans-serif;
 
@@ -49,6 +47,7 @@ body{
 }
 
 .home-img{
+    border-radius: 20% 0% 20% 0%;
     margin-left: 85px;
     width:80%;
 }
@@ -337,10 +336,10 @@ body{
         padding-bottom: 10px;
     }
     .home-img{
-        position:absolute;
-        top:36%;
+        position: absolute;
+        top: 38%;
+        left: 38%;
         border-radius: 20% 0% 20% 0%;
-        right:5%;
         width:32%;
     }
     .btn-sm {
