@@ -337,9 +337,10 @@ body{
     }
     .home-img{
         position: absolute;
-        left: 58%;
+        top: 18%;
+        left: 38%;
         border-radius: 20% 0% 20% 0%;
-        width:12%;
+        width:32%;
     }
     .btn-sm {
         width: 50px;
